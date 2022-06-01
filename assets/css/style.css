@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    color: #000;
+    font-family: 'Rubik', sans-serif;
+}
+body{
+    background: url(../images/galaxy-gbd52f9b86_1920.jpg);
+    background-size: cover;
+    background-position:initial;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.container{
+    text-align: center;
+    justify-content: center;
+}
+.area{
+    width: 100%; 
+    max-width: 350px;
+    background: linear-gradient(
+        to bottom right,
+        #ff6c87, #fc7246
+    );
+    border: 1px solid #dc3545;
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-top: 20px;
+    margin: auto;
+}
+.area h1{
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 35px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    min-width: 150px;
+    width: 75%;
+    
+}
+.form-control{
+    background-color:transparent;
+    margin-left: 10px;
+    margin-right: 10px ;
+    width: 200px;
+    /*color: #bbb;*/
+    border-color: #dc3545;
+    font-weight: bold;
+}
+.form-control::placeholder{
+    color: #000;
+}
+.form-control:focus{
+    background-color: #dc3545;
+    color: #bbb;
+}
+#button{
+    margin-top: 12px;
+    margin-bottom: 15px;
+    color: #000;
+    border-color: #dc3545;
+    font-weight: bold;
+}
+#button:hover{
+    color: #bbb;
+}
+form a {
+    text-decoration: none;
+    color: #bbb;
+    margin-bottom: -5px;
+}
+form a:hover{
+    color: #dc3545;
+}
